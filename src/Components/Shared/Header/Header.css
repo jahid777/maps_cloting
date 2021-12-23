@@ -1,0 +1,57 @@
+/* For Top Header */
+.topHeaderBody {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: auto;
+}
+.contactInfo ul {
+  display: flex !important;
+  justify-content: end !important;
+  padding: 10px 0;
+}
+.socialLink {
+  background: #fff;
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialLink:hover .mainIcon {
+  color: var(--white);
+}
+.fb {
+  color: #3b5999;
+}
+.LI {
+  color: #0077b5;
+}
+.tw {
+  color: #55acee;
+}
+.socialLink .mainIcon:hover {
+  transform: rotateY(360deg);
+  transition: 1s;
+}
+.fb:hover {
+  background-color: #3b5999;
+  color: var(--white);
+}
+.LI:hover {
+  background-color: #0077b5;
+  color: var(--white);
+}
+.tw:hover {
+  background-color: #55acee;
+  color: var(--white);
+}
+
+.contactEmail,
+.contactNumber {
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: var(--black);
+}
