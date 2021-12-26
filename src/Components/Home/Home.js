@@ -5,11 +5,11 @@ import Carousel from "./Sections/Carousel";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
       <Carousel />
       <Footer />
-    </div>
+    </>
   );
 };
 
