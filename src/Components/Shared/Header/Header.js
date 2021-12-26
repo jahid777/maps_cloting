@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
       {/* Top Header Start*/}
-      <div class="container-fluid topHeaderBody">
+      <div className="container-fluid topHeaderBody">
         <div className="contactInfo">
           <ul>
             <li className="contactEmail">
