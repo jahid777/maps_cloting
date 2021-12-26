@@ -1,0 +1,23 @@
+/* ======For Video Content Page========== */
+.videoContent {
+  background-image: url("https://i.ibb.co/gDXXTPw/video-Back.png");
+  background-color: red; /* Used if the image is unavailable */
+  height: 400px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.mainContent {
+  /* margin-top: auto !important; */
+}
+.leftContent {
+  text-align: justify;
+  padding-left: 40px !important;
+  font-size: 18px;
+}
+/* ======For Video Content Page========== */
