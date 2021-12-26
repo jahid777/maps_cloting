@@ -1,6 +1,4 @@
 * {
-  margin: 0 !important;
-  padding: 0 !important;
   box-sizing: border-box;
 }
 :root {
@@ -27,4 +25,6 @@ html {
 }
 ul {
   list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
 }

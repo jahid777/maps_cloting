@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 /* For Top Header */
 .topHeaderBody {
   background-color: #e6e6e6;
@@ -7,11 +8,12 @@
 .contactInfo ul {
   display: flex !important;
   justify-content: end !important;
-  padding: 10px 0;
+  padding: 10px 0 !important;
+  margin-right: 10px !important;
 }
 .socialLink {
   background: #fff;
-  margin-left: 10px;
+  margin-left: 10px !important;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -50,8 +52,48 @@
 
 .contactEmail,
 .contactNumber {
-  margin-right: 20px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-right: 20px !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
   color: var(--black);
 }
+/* ---------- */
+
+/* ForBottom NavBar */
+.mapsNav {
+  background-color: #0f0826 !important;
+}
+.LogoMain {
+  display: flex;
+  flex-direction: column !important;
+  text-decoration: none;
+}
+.LogoMain span {
+  color: var(--black);
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  color: yellow;
+  /* color: var(--blue); */
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: auto;
+}
+
+.mapsNavlink {
+  color: var(--white) !important;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.rightMenuBottomNav ul li {
+  margin: 0 15px;
+}
+.mapsNavlink:hover {
+  color: var(--black) !important;
+  background-color: var(--white);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+/* ---------- */
