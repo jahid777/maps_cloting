@@ -98,14 +98,11 @@
 }
 /* ---------- */
 .mapsNav {
-  background-color: #bae8e8 !important;
-  /* margin-top: 0 !important;
-  padding: 0 !important; */
+  background-color: #0f0826 !important;
 }
 .logo {
-  width: 15%;
-  height: auto;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
-  object-position: bottom;
 }
 /* ---------- */
