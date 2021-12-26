@@ -1,8 +1,8 @@
 /* For Top Header */
 .topHeaderBody {
   background-color: #e6e6e6;
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  /* height: auto; */
 }
 .contactInfo ul {
   display: flex !important;
@@ -55,3 +55,18 @@
   margin-bottom: auto;
   color: var(--black);
 }
+/* ---------- */
+
+/* ForBottom NavBar */
+.mapsNav{
+  background-color: #BAE8E8 !important;
+  /* margin-top: 0 !important;
+  padding: 0 !important; */
+}
+.logo{
+  width: 15%;
+  height: auto;
+  object-fit: cover;
+  object-position: bottom;
+}
+/* ---------- */
