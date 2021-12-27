@@ -5,6 +5,7 @@ import CallIcon from "@mui/icons-material/Call";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -46,7 +47,7 @@ const Header = () => {
         style={{ width: "100%" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand LogoMain" href="/">
+          <Link className="navbar-brand LogoMain" to="/">
             <img
               // src="https://i.ibb.co/gS3TJp5/M-removebg.png"
               src="https://i.ibb.co/wNX51tC/1-removebg-preview.png"
@@ -54,7 +55,7 @@ const Header = () => {
               className="logo"
             ></img>
             <span>MAPS CLOTHING LTD.</span>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -72,23 +73,23 @@ const Header = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link mapsNavlink active"
                   aria-current="page"
-                  href="/"
+                  to="/"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link mapsNavlink" href="/">
+                <Link className="nav-link mapsNavlink" to="/">
                   Products
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link mapsNavlink dropdown-toggle"
-                  href="/"
+                  href="/about"
                   id="navbarDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -101,26 +102,26 @@ const Header = () => {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       CEO Message
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/">
                       Company profile
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link mapsNavlink" href="/">
+                <Link className="nav-link mapsNavlink" to="/contact_us">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
