@@ -20,17 +20,14 @@ const Video = () => {
           </p>
         </div>
         <div className="col-md-6 RightVideo">
-          <iframe
-            width="630"
-            height="315"
+          {/* <iframe
             src="https://www.youtube.com/embed/nMCB-4EqQXQ"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            loop="true"
-            autoplay="true"
-          ></iframe>
+          ></iframe> */}
+          {/* <video width="320" height="240" controls autoPlay>
+            <source src="https://www.youtube.com/embed/nMCB-4EqQXQ" type="video/mp4"/>
+          </video> */}
         </div>
       </div>
     </div>
