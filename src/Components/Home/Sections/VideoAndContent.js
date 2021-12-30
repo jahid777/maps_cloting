@@ -1,5 +1,6 @@
 import React from "react";
 import "./../Home.css";
+import video from "../../../video/myvideo.mp4";
 
 const Video = () => {
   return (
@@ -20,14 +21,7 @@ const Video = () => {
           </p>
         </div>
         <div className="col-md-6 RightVideo">
-          {/* <iframe
-            src="https://www.youtube.com/embed/nMCB-4EqQXQ"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          ></iframe> */}
-          {/* <video width="320" height="240" controls autoPlay>
-            <source src="https://www.youtube.com/embed/nMCB-4EqQXQ" type="video/mp4"/>
-          </video> */}
+          <video muted loop autoPlay ReactPlayer controls src={video}></video>
         </div>
       </div>
     </div>
