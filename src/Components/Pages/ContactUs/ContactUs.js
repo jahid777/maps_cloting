@@ -1,9 +1,38 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+// import * as emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import "./ContactUs.css";
 
 const ContactUs = () => {
   const [message, setMessage] = useState("");
 
+  const form = useRef();
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_27ozob8",
+        "template_bho5qdb",
+        e.target,
+        "user_8p65rfJCByEzigTVifXF7"
+      )
+      .then(
+        (result) => {
+          if (result) {
+            setMessage("your message successfully sent!");
+            setTimeout(() => {
+              setMessage("");
+            }, 5000);
+          }
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
   return (
     <div>
       <div className="container my-5 py-3 contactMain">
@@ -38,7 +67,7 @@ const ContactUs = () => {
               style={{ width: "100%", height: "450px" }}
             ></iframe>
           </div>
-          <form className="col">
+          <form className="col" ref={form} onSubmit={sendEmail}>
             <div className="form-group">
               <label htmlFor="inputName">Name</label>
               <input

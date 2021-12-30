@@ -25,7 +25,8 @@ const Video = () => {
             muted
             loop
             autoPlay
-            ReactPlayer
+            // ReactPlayer
+            // reactplayer={true}
             controls
             src={video}
             style={{ height: "600px", width: "600px" }}
