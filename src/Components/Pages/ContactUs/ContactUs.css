@@ -1,0 +1,25 @@
+.contactMain {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contactHead i {
+  font-size: 19px;
+}
+.ContactHr {
+  background-color: var(--blue);
+  border-top: 3px dashed #8c8b8b;
+}
+/* .myBtn {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px 50px;
+} */
+
+@media only screen and (min-width: 900px) {
+  .emailPhone {
+    display: flex;
+  }
+  .emailPhone p:first-child {
+    margin-right: 10px;
+  }
+}
