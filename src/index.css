@@ -16,12 +16,14 @@ html {
 .mapsButton {
   background-color: var(--blue);
   color: var(--white);
+  height: 40px;
+  width: 150px;
 }
 .mapsButton:hover {
   background-color: var(--orange);
   color: var(--white);
   transition: 0.3s;
-  box-shadow: 0 10px 20px rgba(187, 53, 0, 0.884);
+  /* box-shadow: 0 10px 20px rgba(187, 53, 0, 0.884); */
 }
 ul {
   list-style-type: none;
