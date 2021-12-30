@@ -21,7 +21,15 @@ const Video = () => {
           </p>
         </div>
         <div className="col-md-6 RightVideo">
-          <video muted loop autoPlay ReactPlayer controls src={video}></video>
+          <video
+            muted
+            loop
+            autoPlay
+            ReactPlayer
+            controls
+            src={video}
+            style={{ height: "600px", width: "600px" }}
+          ></video>
         </div>
       </div>
     </div>
