@@ -11,14 +11,14 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
             <img
-              src="https://icms-image.slatic.net/images/ims-web/a3973d1d-ba3d-4b92-95aa-3f56cdb3b18d.jpg"
+              src="https://i.ibb.co/SwLqqvg/1.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <img
-              src="https://icms-image.slatic.net/images/ims-web/f749f4d0-6b78-4466-bb7b-2159bfa64526.jpg"
+              src="https://i.ibb.co/wKWQMdw/2.jpg"
               className="d-block w-100"
               alt="..."
             />
