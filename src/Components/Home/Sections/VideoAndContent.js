@@ -20,7 +20,7 @@ const Video = () => {
             Ipsum
           </p>
         </div>
-        <div className="col-md-6 RightVideo">
+        <div className="col-md-6 RightVideo ml-5">
           <video
             muted
             loop
