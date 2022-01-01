@@ -6,8 +6,8 @@
   font-size: 35px;
   width: 60px;
   height: 60px;
-  background: var(--blue);
-  color: white;
+  background: var(--yellow);
+  color: var(--black);
   cursor: pointer;
   border-radius: 100px;
   border: none;
@@ -15,5 +15,6 @@
 }
 
 .back-to-top:hover {
-  background: #0f0826;
+  background: var(--black);
+  color: var(--white);
 }

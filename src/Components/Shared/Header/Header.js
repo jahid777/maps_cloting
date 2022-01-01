@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import EmailIcon from "@mui/icons-material/Email";
 import CallIcon from "@mui/icons-material/Call";
@@ -8,6 +8,23 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 91) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
+  let navbarClasses = [""];
+  if (scrolled) {
+    navbarClasses.push("scrolled");
+  }
   return (
     <>
       {/* Top Header Start*/}
@@ -43,7 +60,9 @@ const Header = () => {
       {/* Top Header End*/}
       {/* Bottom NavBar start */}
       <nav
-        className="container-fluid navbar navbar-expand-lg navbar-light mapsNav"
+        className={`container-fluid navbar navbar-expand-lg sticky-top mapsNav ${navbarClasses.join(
+          " "
+        )}`}
         style={{ width: "100%" }}
       >
         <div className="container-fluid">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./../Home.css";
-import video from "../../../video/myvideo.mp4";
+import video from "../../../video/myVideo.mp4";
 
 const Video = () => {
   return (
@@ -20,7 +20,7 @@ const Video = () => {
             Ipsum
           </p>
         </div>
-        <div className="col-md-6 RightVideo ml-5">
+        <div className="col-md-6 RightVideo">
           <video
             muted
             loop
@@ -29,7 +29,7 @@ const Video = () => {
             // reactplayer={true}
             controls
             src={video}
-            style={{ height: "600px", width: "600px" }}
+            style={{ height: "300px", width: "600px" }}
           ></video>
         </div>
       </div>

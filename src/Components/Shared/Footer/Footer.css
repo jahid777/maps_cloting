@@ -1,0 +1,12 @@
+.myFooter {
+  background-color: var(--black);
+  color: var(--yellow);
+  padding-top: 20px;
+}
+.footerHighlight {
+  color: var(--white) !important;
+}
+.bottomFooter {
+  background-color: #e6e6e6 !important;
+  color: var(--black) !important;
+}
