@@ -1,3 +1,10 @@
+/* ========= For carousel ==========*/
+.carouselBanner {
+  width: 100%;
+  height: 500px;
+}
+/* ========= For carousel ==========*/
+
 /* ======For Video Content Page========== */
 .videoContent {
   background-image: url("https://i.ibb.co/gDXXTPw/video-Back.png");
@@ -22,10 +29,79 @@
 .leftContent span {
   font-weight: bolder;
 }
-.carouselBanner {
-  width: 100%;
-  height: 500px;
-}
-.RightVideo {
-}
+
 /* ======For Video Content Page========== */
+
+/* ====== Team member ======= */
+.teamMember {
+  padding: 30px 0;
+}
+.teamHeader {
+  text-align: center;
+}
+.hr {
+  width: 250px;
+  height: 5px;
+  background: rgb(25, 16, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 16, 23, 1) 6%,
+    rgba(219, 217, 4, 1) 31%,
+    rgba(255, 69, 0, 1) 49%,
+    rgba(0, 174, 239, 1) 73%,
+    rgba(25, 16, 23, 1) 89%
+  );
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .teamMain {
+} */
+.singleMember {
+  position: relative;
+  padding: 20px;
+}
+
+.singleMember::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.singleMember:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.singleMember::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background-image: linear-gradient(to right, #ff8442 0%, #f4369e 100%);
+  z-index: -1;
+  transition: transform 0.3s ease;
+  border-radius: 15px !important;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 20px solid gray;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.designation {
+  font-size: 14px;
+  text-align: center;
+}
+/* ====== Team member ======= */

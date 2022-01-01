@@ -3,6 +3,7 @@ import Header from "../Shared/Header/Header";
 import Footer from "./../Shared/Footer/Footer";
 import Carousel from "./Sections/Carousel";
 import VideoAndContent from "./Sections/VideoAndContent";
+import TeamMember from "./Sections/TeamMember";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Header />
       <Carousel />
       <VideoAndContent />
+      <TeamMember />
       <Footer />
     </>
   );
