@@ -22,8 +22,8 @@ const TeamMember = () => {
               alt="Milon"
               className="profileImage mb-2"
             />
-            <h2 className="name">Milon Kumar Biswas</h2>
-            <p className="designation">Chairman</p>
+            <h2 className="name">Md. Abu Jaher Polash</h2>
+            <p className="designation">Managing Director</p>
           </div>
           <div className="col-md-3 singleMember">
             <img
@@ -31,8 +31,8 @@ const TeamMember = () => {
               alt="Milon"
               className="profileImage mb-2"
             />
-            <h2 className="name">Milon Kumar Biswas</h2>
-            <p className="designation">Chairman</p>
+            <h2 className="name"> Mst. Amena Khatun</h2>
+            <p className="designation">Director</p>
           </div>
           <div className="col-md-3 singleMember">
             <img
@@ -40,8 +40,8 @@ const TeamMember = () => {
               alt="Milon"
               className="profileImage mb-2"
             />
-            <h2 className="name">Milon Kumar Biswas</h2>
-            <p className="designation">Chairman</p>
+            <h2 className="name">Md. Sohel Rana</h2>
+            <p className="designation">Director</p>
           </div>
         </div>
       </div>

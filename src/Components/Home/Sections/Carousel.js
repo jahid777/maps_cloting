@@ -11,21 +11,21 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
             <img
-              src="https://i.ibb.co/qdVkJqH/b3.webp"
+              src="https://i.ibb.co/7XsVkYw/3.webp"
               className="d-block w-100 carouselBanner"
               alt="..."
             />
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <img
-              src="https://i.ibb.co/zJVwg98/b2.webp"
+              src="https://i.ibb.co/b3nzHNz/1.webp"
               className="d-block w-100 carouselBanner"
               alt="..."
             />
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <img
-              src="https://i.ibb.co/9sp0Gvw/b1.webp"
+              src="https://i.ibb.co/1Q6w0dk/2.webp"
               className="d-block w-100 carouselBanner"
               alt="..."
             />
