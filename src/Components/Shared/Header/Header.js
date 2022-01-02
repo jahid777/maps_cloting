@@ -101,7 +101,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mapsNavlink" to="/">
+                <Link className="nav-link mapsNavlink" to="/product">
                   Products
                 </Link>
               </li>

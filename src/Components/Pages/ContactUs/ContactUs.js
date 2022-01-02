@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 // import * as emailjs from "emailjs-com";
 import emailjs from "@emailjs/browser";
 import "./ContactUs.css";
+import Header from "./../../Shared/Header/Header";
+import Footer from "./../../Shared/Footer/Footer";
 
 const ContactUs = () => {
   const [message, setMessage] = useState("");
@@ -34,7 +36,8 @@ const ContactUs = () => {
     e.target.reset();
   }
   return (
-    <div>
+    <>
+      <Header />
       <div className="container my-5 py-3 contactMain">
         <div className="row">
           <div className="col-lg-12 text-center mb-3 contactHead">
@@ -133,7 +136,8 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 };
 

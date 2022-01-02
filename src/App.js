@@ -6,6 +6,7 @@ import ContactUs from "./Components/Pages/ContactUs/ContactUs";
 import About from "./Components/Pages/About/About";
 import ScrollToTop from "./Components/Pages/ScrollToTop/ScrollToTop";
 import RouterChangeTop from "./Components/Pages/RouterChangeTop/RouterChangeTop";
+import Product from "./Components/Pages/Product/Product";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact_us" element={<ContactUs />} />
         <Route path="/about" element={<About />} />
+        <Route path="/product" element={<Product />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
       <ScrollToTop />
