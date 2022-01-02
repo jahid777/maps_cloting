@@ -4,16 +4,16 @@ import "./Footer.css";
 const Footer = () => {
   return (
     // <!-- Footer -->
-    <footer class="text-center text-lg-start myFooter">
+    <footer className="text-center text-lg-start myFooter">
       {/* <!-- Section: Links  --> */}
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
+      <section className="">
+        <div className="container text-center text-md-start mt-5">
           {/* <!-- Grid row --> */}
-          <div class="row mt-3">
+          <div className="row mt-3">
             {/* <!-- Grid column --> */}
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               {/* <!-- Content --> */}
-              <h6 class="text-uppercase fw-bold mb-4 footerHighlight">
+              <h6 className="text-uppercase fw-bold mb-4 footerHighlight">
                 Company Information
               </h6>
               <p>
@@ -25,23 +25,23 @@ const Footer = () => {
             {/* <!-- Grid column --> */}
 
             {/* <!-- Grid column --> */}
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               {/* <!-- Links --> */}
-              <h6 class="text-uppercase fw-bold mb-4 footerHighlight">
+              <h6 className="text-uppercase fw-bold mb-4 footerHighlight">
                 Products
               </h6>
               <p>
-                <a href="#!" class="text-reset">
+                <a href="#!" className="text-reset">
                   Suits
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
+                <a href="#!" className="text-reset">
                   Under Garments
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
+                <a href="#!" className="text-reset">
                   Formal Dress
                 </a>
               </p>
@@ -49,23 +49,23 @@ const Footer = () => {
             {/* <!-- Grid column --> */}
 
             {/* <!-- Grid column --> */}
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               {/* <!-- Links --> */}
-              <h6 class="text-uppercase fw-bold mb-4 footerHighlight">
+              <h6 className="text-uppercase fw-bold mb-4 footerHighlight">
                 Useful links
               </h6>
               <p>
-                <a href="#!" class="text-reset">
+                <a href="#!" className="text-reset">
                   Pricing
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
+                <a href="#!" className="text-reset">
                   About us
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
+                <a href="#!" className="text-reset">
                   Help
                 </a>
               </p>
@@ -73,19 +73,19 @@ const Footer = () => {
             {/* <!-- Grid column --> */}
 
             {/* <!-- Grid column --> */}
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               {/* <!-- Links --> */}
-              <h6 class="text-uppercase fw-bold mb-4 footerHighlight">
+              <h6 className="text-uppercase fw-bold mb-4 footerHighlight">
                 Contact
               </h6>
               <p>
-                <i class="bi bi-geo-fill"></i> New York, NY 10012, US
+                <i className="bi bi-geo-fill"></i> New York, NY 10012, US
               </p>
               <p>
-                <i class="bi bi-envelope-open-fill"></i> info@example.com
+                <i className="bi bi-envelope-open-fill"></i> info@example.com
               </p>
               <p>
-                <i class="bi bi-telephone-fill"></i> + 01 234 567 88
+                <i className="bi bi-telephone-fill"></i> + 01 234 567 88
               </p>
             </div>
             {/* <!-- Grid column --> */}
@@ -96,9 +96,9 @@ const Footer = () => {
       {/* <!-- Section: Links  --> */}
 
       {/* <!-- Copyright --> */}
-      <div class="text-center p-4 bottomFooter">
+      <div className="text-center p-4 bottomFooter">
         © {new Date().getFullYear()} Copyright:
-        <span class="text-reset fw-bold"> MAPS CLOTHINGS LTD.</span>
+        <span className="text-reset fw-bold"> MAPS CLOTHINGS LTD.</span>
       </div>
       {/* <!-- Copyright --> */}
     </footer>

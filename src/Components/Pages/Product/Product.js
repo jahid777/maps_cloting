@@ -11,12 +11,12 @@ const Product = () => {
       <Header />
       <div className="container-fluid ProductPage">
         {/* <!-- Gallery --> */}
-        <div class="row my-5">
+        <div className="row my-5">
           {allProduct.map((singleProduct) => (
-            <div className="col-md-3">
+            <div key={singleProduct?.id} className="col-md-3">
               <img
                 src={singleProduct?.img}
-                class="w-100 mb-4"
+                className="w-100 mb-4"
                 alt="Waves at Sea"
               />
             </div>
