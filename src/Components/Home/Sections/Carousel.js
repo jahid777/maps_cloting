@@ -11,7 +11,8 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
             <img
-              src="https://i.ibb.co/7XsVkYw/3.webp"
+              // src="https://i.ibb.co/7XsVkYw/3.webp"
+              src="https://i.ibb.co/Y346yzq/3.webp"
               className="d-block w-100 carouselBanner"
               alt="..."
             />

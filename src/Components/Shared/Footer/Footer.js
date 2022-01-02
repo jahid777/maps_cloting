@@ -79,10 +79,12 @@ const Footer = () => {
                 Contact
               </h6>
               <p>
-                <i className="bi bi-geo-fill"></i> New York, NY 10012, US
+                <i className="bi bi-geo-fill"></i> Holding No- 40, Main Road,
+                Dhaka Uddan, Haji Dil Mohammad Avenue, Mohammadpur, Dhaka-1207.
               </p>
               <p>
-                <i className="bi bi-envelope-open-fill"></i> info@example.com
+                <i className="bi bi-envelope-open-fill"></i>{" "}
+                admin@mapsclothing.com
               </p>
               <p>
                 <i className="bi bi-telephone-fill"></i> + 01 234 567 88

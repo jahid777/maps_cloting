@@ -32,8 +32,7 @@ const Header = () => {
         <div className="contactInfo">
           <ul>
             <li className="contactEmail">
-              <EmailIcon fontSize="small" />
-              info@mysoftheaven.com
+              <EmailIcon fontSize="small" /> admin@mapsclothing.com
             </li>
             <li className="contactNumber">
               <CallIcon fontSize="small" />
