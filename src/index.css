@@ -31,3 +31,7 @@ ul {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+.mapshr{
+  color: var(--black)
+}
