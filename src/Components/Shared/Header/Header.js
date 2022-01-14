@@ -36,7 +36,7 @@ const Header = () => {
             </li>
             <li className="contactNumber">
               <CallIcon fontSize="small" />
-              +88 01123456789
+              +880 19581-55100
             </li>
             <li className="socialLink fb">
               <a href="/" className="mainIcon fb">
@@ -116,24 +116,14 @@ const Header = () => {
                   About
                 </Link>
                 <ul
-                  className="dropdown-menu"
+                  className="dropdown-menu mapsDropdown"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <Link className="dropdown-item" to="/about">
+                    <Link className="dropdown-item mapsDropdownLink" to="/about">
                       About Us
                     </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/">
-                      CEO Message
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="/">
-                      Company profile
-                    </Link>
-                  </li>
+                  </li>                
                 </ul>
               </li>
               <li className="nav-item">
