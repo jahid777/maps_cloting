@@ -35,7 +35,10 @@
 /* ======== For Home Product========== */
 .homeProduct {
   padding: 50px 5px;
-  background-image: url("https://i.ibb.co/Qd4KYs8/suit-banner-2.webp");
+
+  /* background-image: url("https://i.ibb.co/17cVP9K/home-Banner-Back.webp"); */
+  /* background-image: url(" https://i.ibb.co/V2km8bh/new-banner.webp"); */
+  background-image: url("https://i.ibb.co/7Y0SdNh/2.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
