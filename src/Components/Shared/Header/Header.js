@@ -20,7 +20,7 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-  });
+  }, []);
   let navbarClasses = [""];
   if (scrolled) {
     navbarClasses.push("scrolled");
@@ -30,14 +30,25 @@ const Header = () => {
       {/* Top Header Start*/}
       <div className="container-fluid topHeaderBody">
         <div className="contactInfo">
+          <div className="gifTop">
+            <img
+              src="https://i.ibb.co/DDrQwRy/happu-Shopping2.gif"
+              alt="happu-Shopping2"
+              border="0"
+              className="gifImg"
+            />
+          </div>
           <ul>
-            <li className="contactEmail">
-              <EmailIcon fontSize="small" /> admin@mapsclothing.com
-            </li>
-            <li className="contactNumber">
-              <CallIcon fontSize="small" />
-              +880 19581-55100
-            </li>
+            <span className="emailPhone">
+              <li className="contactEmail">
+                <EmailIcon fontSize="small" />
+                admin@mapsclothing.com
+              </li>
+              <li className="contactNumber">
+                <CallIcon fontSize="small" />
+                +880 19581-55100
+              </li>
+            </span>
             <li className="socialLink fb">
               <a href="/" className="mainIcon fb">
                 <FacebookIcon fontSize="medium" />
@@ -83,7 +94,7 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <i className="bi bi-list"></i>
           </button>
           <div
             className="collapse navbar-collapse justify-content-end rightMenuBottomNav"
@@ -104,27 +115,10 @@ const Header = () => {
                   Products
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <Link
-                  className="nav-link mapsNavlink dropdown-toggle"
-                  to="/"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About
+              <li className="nav-item">
+                <Link className="nav-link mapsNavlink" to="/about">
+                  About us
                 </Link>
-                <ul
-                  className="dropdown-menu mapsDropdown"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <Link className="dropdown-item mapsDropdownLink" to="/about">
-                      About Us
-                    </Link>
-                  </li>                
-                </ul>
               </li>
               <li className="nav-item">
                 <Link className="nav-link mapsNavlink" to="/contact_us">

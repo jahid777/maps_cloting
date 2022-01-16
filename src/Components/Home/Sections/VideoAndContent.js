@@ -29,7 +29,7 @@ const Video = () => {
             // reactplayer={true}
             controls
             src={video}
-            style={{ height: "300px", width: "600px" }}
+            className="mainVideo"
           ></video>
         </div>
       </div>

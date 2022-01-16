@@ -3,9 +3,14 @@ import "./Product.css";
 import Header from "./../../Shared/Header/Header";
 import Footer from "./../../Shared/Footer/Footer";
 import { AllProducts } from "./ProductData";
+import { useEffect } from "react";
 
 const Product = () => {
-  const [allProduct, setallProduct] = useState(AllProducts);
+  const [allProduct, setAllProduct] = useState([]);
+
+  useEffect(() => {
+    setAllProduct(AllProducts);
+  }, []);
   return (
     <>
       <Header />

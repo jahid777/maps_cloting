@@ -3,12 +3,19 @@
   width: 100%;
   height: 500px;
 }
+
+@media only screen and (max-width: 900px) {
+  .carouselBanner {
+    height: 200px;
+  }
+}
 /* ========= For carousel ==========*/
 
 /* ======For Video Content Page========== */
 .videoContent {
   background-image: url("https://i.ibb.co/gDXXTPw/video-Back.png");
-  height: 400px;
+  width: 100%;
+  height: auto;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,28 +24,34 @@
   display: flex;
   align-items: center !important;
   justify-content: center !important;
+  padding: 40px 0;
 }
-.mainContent {
-  padding: 0 30px !important;
+.mainVideo {
+  width: 100%;
+  height: 90%;
 }
+
 .leftContent {
   text-align: justify;
   font-size: 18px;
   line-height: 2;
+  font-weight: bold;
+  padding-left: 30px;
 }
 .leftContent span {
   font-weight: bolder;
 }
-
+@media only screen and (max-width: 900px) {
+  .leftContent {
+    padding-left: 5px;
+  }
+}
 /* ======For Video Content Page========== */
 
 /* ======== For Home Product========== */
 .homeProduct {
   padding: 50px 5px;
-
-  /* background-image: url("https://i.ibb.co/17cVP9K/home-Banner-Back.webp"); */
-  /* background-image: url(" https://i.ibb.co/V2km8bh/new-banner.webp"); */
-  background-image: url("https://i.ibb.co/7Y0SdNh/2.webp");
+  background-image: url(" https://i.ibb.co/V2km8bh/new-banner.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

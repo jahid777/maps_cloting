@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -31,19 +32,19 @@ const Footer = () => {
                 Products
               </h6>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/product" className="text-reset">
                   Suits
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/product" className="text-reset">
                   Under Garments
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/product" className="text-reset">
                   Formal Dress
-                </a>
+                </Link>
               </p>
             </div>
             {/* <!-- Grid column --> */}
@@ -55,19 +56,14 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a href="#!" className="text-reset">
-                  Pricing
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
+                <Link to="/about" className="text-reset">
                   About us
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/contact_us" className="text-reset">
                   Help
-                </a>
+                </Link>
               </p>
             </div>
             {/* <!-- Grid column --> */}
@@ -87,7 +83,7 @@ const Footer = () => {
                 admin@mapsclothing.com
               </p>
               <p>
-                <i className="bi bi-telephone-fill"></i> + 01 234 567 88
+                <i className="bi bi-telephone-fill"></i> +880 19581-55100
               </p>
             </div>
             {/* <!-- Grid column --> */}
