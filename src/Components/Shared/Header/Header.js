@@ -32,7 +32,7 @@ const Header = () => {
         <div className="contactInfo">
           <div className="gifTop">
             <img
-              src="https://i.ibb.co/DDrQwRy/happu-Shopping2.gif"
+              src="https://i.ibb.co/ZK18NPH/Happy-Shopping-White.gif"
               alt="happu-Shopping2"
               border="0"
               className="gifImg"
