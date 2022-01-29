@@ -1,0 +1,26 @@
+.ProductPage {
+  background-color: rgba(95, 158, 160, 0.2);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.productPageHeading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.productPageHr {
+  width: 350px;
+  height: 5px !important;
+  background: rgb(111, 81, 164);
+  background: linear-gradient(
+    90deg,
+    rgba(111, 81, 164, 1) 17%,
+    rgba(81, 164, 125, 1) 45%,
+    rgba(175, 176, 57, 1) 80%,
+    rgba(255, 69, 0, 1) 100%
+  );
+  margin-left: auto;
+  margin-right: auto;
+}

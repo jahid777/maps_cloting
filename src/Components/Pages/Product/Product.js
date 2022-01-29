@@ -16,9 +16,14 @@ const Product = () => {
       <Header />
       <div className="container-fluid ProductPage">
         {/* <!-- Gallery --> */}
-        <div className="row my-5">
+        <div className="row">
+          <span className="productPageHeading">
+            <p>Our Products </p>
+            <hr className="productPageHr" />
+          </span>
+
           {allProduct.map((singleProduct) => (
-            <div key={singleProduct?.id} className="col-md-3">
+            <div key={singleProduct?.id} className="col-md-3 productBody">
               <img
                 src={singleProduct?.img}
                 className="w-100 mb-4"

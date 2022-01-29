@@ -38,6 +38,9 @@
   font-weight: bold;
   padding-left: 30px;
 }
+.leftContent p {
+  padding: 0 10px;
+}
 .leftContent span {
   font-weight: bolder;
 }
