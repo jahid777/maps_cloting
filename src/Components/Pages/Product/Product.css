@@ -13,14 +13,8 @@
 .productPageHr {
   width: 350px;
   height: 5px !important;
-  background: rgb(111, 81, 164);
-  background: linear-gradient(
-    90deg,
-    rgba(111, 81, 164, 1) 17%,
-    rgba(81, 164, 125, 1) 45%,
-    rgba(175, 176, 57, 1) 80%,
-    rgba(255, 69, 0, 1) 100%
-  );
+  background: #0f0826;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -20px;
 }
