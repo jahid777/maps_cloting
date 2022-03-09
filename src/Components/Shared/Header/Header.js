@@ -50,17 +50,17 @@ const Header = () => {
               </li>
             </span>
             <li className="socialLink fb">
-              <a href="/" className="mainIcon fb">
+              <a href="https://www.facebook.com/profile.php?id=100006060858934" target="_blank" className="mainIcon fb">
                 <FacebookIcon fontSize="medium" />
               </a>
             </li>
             <li className="socialLink LI">
-              <a href="/" className="mainIcon LI">
+              <a href="https://www.linkedin.com/" target="_blank" className="mainIcon LI">
                 <LinkedInIcon fontSize="medium" />
               </a>
             </li>
             <li className="socialLink tw">
-              <a href="/" className="mainIcon tw">
+              <a href="https://twitter.com/" target="_blank"  className="mainIcon tw">
                 <TwitterIcon fontSize="medium" />
               </a>
             </li>
