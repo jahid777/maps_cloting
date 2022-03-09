@@ -37,13 +37,24 @@
   margin-top: auto;
   margin-bottom: auto;
 }
-.mission span,
-.vision span {
+.missionContent,
+.visionContent {
   width: 100%;
   border-left: 1px solid red;
   padding-left: 10px;
   text-align: justify !important;
   font-size: 20px;
+}
+.missionContentSections {
+  display: flex;
+  flex-direction: column;
+}
+.missionContentSectionsHead {
+  font-weight: bold;
+  text-align: center;
+}
+.missionContentSectionsText {
+  text-align: center;
 }
 .topContent {
   font-size: 20px;

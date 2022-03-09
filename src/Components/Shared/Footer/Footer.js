@@ -18,9 +18,8 @@ const Footer = () => {
                 Company Information
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                MAPS CLOTHING LTD., started its Garment business in 2012 with a
+                small buying house in Dhaka, Bangladesh.
               </p>
             </div>
             {/* <!-- Grid column --> */}

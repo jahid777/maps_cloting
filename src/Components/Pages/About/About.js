@@ -20,27 +20,56 @@ const About = () => {
         </div>
         <div className="container mainContent">
           <p className="topContent">
-            <span>MAPS Clothing Limited (MCL)</span> is one of the largest
-            garments in the country representing the ready made garment
-            products. Particularly the under garments and formal dress like
-            shirt, pant, suits are manufactured here. Starting its journey in
-            1983, today MCL takes care of an industry that is at the backbone of
-            Bangladesh’s economy.
+            <span>MAPS Clothing Limited (MCL)</span> started its Garment
+            business in 2012 with a small buying house in Dhaka, Bangladesh. It
+            has now grown into an Internationally & Nationally trusted in
+            knitting for skilled workmanship, progressive Research & Development
+            consistent quality and services through a 100 strong workforce.
           </p>
 
           <div className="mission my-5">
             <h2 data-aos="fade-down">Our Mission</h2>
-            <span data-aos="fade-left">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            <span data-aos="fade-left" className="missionContent">
+              <div className="missionContentSections">
+                <span
+                  data-aos="fade-down"
+                  className="missionContentSectionsHead"
+                >
+                  To Our Valued Customer
+                </span>
+                <span className="missionContentSectionsText">
+                  Total satisfaction through providing on time delivery of
+                  quality products and services by our best quality production.
+                </span>
+              </div>
+              <br />
+              <div className="missionContentSections">
+                <span
+                  data-aos="fade-right"
+                  className="missionContentSectionsHead"
+                >
+                  To Our Employees
+                </span>
+                <span className="missionContentSectionsText">
+                  Good working environment and compliance with national &
+                  International labour rules.
+                </span>
+              </div>
+              <br />
+              <div className="missionContentSections">
+                <span data-aos="fade-up" className="missionContentSectionsHead">
+                  To Our Society
+                </span>
+                <span className="missionContentSectionsText">
+                  Creation of better green tomorrow.
+                </span>
+              </div>
             </span>
           </div>
           <hr className="mapshr" />
           <div className="vision my-5">
             <h2 data-aos="fade-up">Our Vision</h2>
-            <span data-aos="fade-right">
+            <span data-aos="fade-right" className="visionContent">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
