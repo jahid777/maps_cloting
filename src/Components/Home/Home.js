@@ -5,6 +5,7 @@ import Carousel from "./Sections/Carousel";
 import VideoAndContent from "./Sections/VideoAndContent";
 import TeamMember from "./Sections/TeamMember";
 import Products from "./Sections/Products";
+import CompanySlider from "./Sections/CompanySlider";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Header />
       <Carousel />
       <VideoAndContent />
+      <CompanySlider />
       <Products />
       <TeamMember />
       <Footer />
